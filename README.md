@@ -1,4 +1,4 @@
-# 📊 Amazon Sales & Operations Analytics (India)
+# 📊 Amazon Sales & Operations Analytics
 
 ## 🔍 Overview
 
