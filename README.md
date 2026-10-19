@@ -2,7 +2,7 @@
 
 **Excel · SQL exploration · Python exploration · Power BI**
 
-I wanted to understand what happens *after* an online order is placed, not just how much was sold. This project looks at sales, cancellations, fulfillment and product performance using a dataset of more than **128,000 e-commerce order records**.
+Sales totals only tell part of the story. I wanted to see what happens *after* an online order is placed. This project looks at sales, cancellations, fulfillment and product performance using a dataset of more than **128,000 e-commerce order records**.
 
 The main question was: **How can order-level reporting help a team spot sales concentration and potential operational problems?**
 
@@ -34,7 +34,7 @@ For a real operations team, I'd follow these with metrics such as **on-time deli
 
 ## Reproduce the operations analysis
 
-I added a [Python XLSB analysis script](python/analyze_amazon.py), [SQLite queries](sql/operations_analysis.sql) and [setup notes](docs/REPRODUCE.md). The script can generate order-status, category and fulfillment summaries from the supplied workbook. **It still needs to be run and checked against the workbook**; generated analysis outputs are not included yet.
+The repository also contains a [Python XLSB analysis script](python/analyze_amazon.py), [SQLite queries](sql/operations_analysis.sql) and [setup notes](docs/REPRODUCE.md). The script can generate order-status, category and fulfillment summaries from the supplied workbook. **It still needs to be run and checked against the workbook**; generated analysis outputs are not included yet.
 
 ## Tools and project files
 
@@ -46,7 +46,7 @@ I added a [Python XLSB analysis script](python/analyze_amazon.py), [SQLite queri
 | [SQL work screenshots](assets/MYSQL.png) | SQL exploration evidence |
 | [Python/Colab screenshot](assets/python-GoogleCollab.png) | Python exploration evidence |
 
-The original SQL and Python work is shown in screenshots. A separate reproducible Python script and SQL queries have now been added, but they have not yet been run against the uploaded workbook.
+The original SQL and Python work is shown in screenshots. The reproducible Python script and SQL queries are separate from the original screenshots. Their results still need to be checked against the workbook.
 
 ## What this project demonstrates
 
