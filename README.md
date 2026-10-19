@@ -32,6 +32,10 @@ These patterns are useful for raising questions, but they don't establish why an
 
 For a real operations team, I'd follow these with metrics such as **on-time delivery, return rate, net sales after returns and cost per fulfilled order**.
 
+## Reproduce the operations analysis
+
+I added a [Python XLSB analysis script](python/analyze_amazon.py), [SQLite queries](sql/operations_analysis.sql) and [setup notes](docs/REPRODUCE.md). The script can generate order-status, category and fulfillment summaries from the supplied workbook. **It still needs to be run and checked against the workbook**; generated analysis outputs are not included yet.
+
 ## Tools and project files
 
 | File | Purpose |
@@ -42,7 +46,7 @@ For a real operations team, I'd follow these with metrics such as **on-time deli
 | [SQL work screenshots](assets/MYSQL.png) | SQL exploration evidence |
 | [Python/Colab screenshot](assets/python-GoogleCollab.png) | Python exploration evidence |
 
-The repository includes screenshots of the SQL and Python work, **not runnable SQL scripts or a Python notebook**. I've kept that distinction clear so it's easy to see what can actually be reproduced from the uploaded files.
+The original SQL and Python work is shown in screenshots. A separate reproducible Python script and SQL queries have now been added, but they have not yet been run against the uploaded workbook.
 
 ## What this project demonstrates
 
