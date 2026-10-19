@@ -73,13 +73,15 @@ This project analyzes over **128,000+ real-world e-commerce transactions** to un
 
 ---
 
-## 📁 Project Structure
+## 📁 Repository files
 
-* Dataset (Raw data)
-* Excel Analysis (Cleaning + Pivot tables)
-* SQL Queries (Business analysis queries)
-* Python Notebook (EDA & preprocessing)
-* Power BI Dashboard (.pbix file)
+- [Excel binary workbook](data/Amazon%20Sale%20Report.xlsb)
+- [Power BI report](powerbi/Amazon%20Sale%20Report.pbix)
+- [SQL screenshots](assets/MYSQL.png)
+- [Python/Colab screenshot](assets/python-GoogleCollab.png)
+- [Power BI dashboard preview](assets/PowerBI.png)
+
+The repository currently contains screenshots of SQL and Python work, not the runnable SQL scripts or Python notebook.
 
 ---
 
@@ -94,3 +96,10 @@ This project demonstrates an end-to-end data analytics workflow, transforming ra
 Ahmed Fazil
 [LinkedIn](https://www.linkedin.com/in/ahmed-fazil110)
 [GitHub](https://github.com/AhmedFazil007)
+
+
+## Dashboard preview
+
+![Power BI dashboard](assets/PowerBI.png)
+
+![Additional dashboard](assets/PowerBI2.png)
